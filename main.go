@@ -13,7 +13,7 @@ func main() {
 
 		//return response JSON
 		c.JSON(200, gin.H{
-			"message": "Test Docker Terhubung",
+			"message": "Test API",
 		})
 	})
 
